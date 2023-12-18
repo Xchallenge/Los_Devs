@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = ({textRights = "Escola Senai de Informatica - 2023"}) => {
+const Footer = ({textRights = "WORDSKILLS ©"}) => {
     return (
         
         <footer className='footer-page'>
