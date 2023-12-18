@@ -3,9 +3,11 @@ import "./HomePage.css";
 
 const HomePage = () => {
     return (
-        <div>
-            
-        </div>
+   <>
+   <Main>
+    
+   </Main>
+   </>
     );
 };
 
