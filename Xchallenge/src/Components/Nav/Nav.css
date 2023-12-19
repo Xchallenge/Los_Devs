@@ -1,9 +1,8 @@
 .navbar{
     display: flex;
 
-    height: 85px;
-    justify-content: space-between;
-    align-items: center;
+    
+   
 }
 .nav__items
 {
@@ -17,4 +16,13 @@
 .nav__item{
     text-decoration: none;
     color: white;
+}
+
+.nav__item-checkbox
+{
+    display: contents;
+}
+.btn-Header{
+    background-color: black;
+    width: 120px;
 }

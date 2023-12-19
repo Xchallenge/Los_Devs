@@ -16,6 +16,10 @@
     gap: 5px;
 }
 
+.imgLogin{
+    margin-right: 50px;
+}
+
 .inputLogin {
     border-radius: 4px;
     margin: 10px auto;

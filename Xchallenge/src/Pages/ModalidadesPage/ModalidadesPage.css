@@ -1,0 +1,16 @@
+.modalidadePage{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.select-modalidade{
+    background-color: #F2EEEE;
+    border-radius: 15px;
+    padding: 10px;
+    height: 40px;
+}
+
+.select__item{
+    width: 30%;
+}

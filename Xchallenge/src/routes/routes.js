@@ -6,6 +6,7 @@ import HomePage from '../Pages/HomePage/HomePage';
 import ResultsPage from '../Pages/ResultsPage/ResultsPage';
 import { PrivateRoute } from './privateRoute';
 import LoginPage from '../Pages/LoginPage/LoginPage';
+import ModalidadesPage from '../Pages/ModalidadesPage/ModalidadesPage';
 const Rotas = () => {
     return (
         <BrowserRouter>
@@ -19,6 +20,15 @@ const Rotas = () => {
           element={
          
               <ResultsPage/>
+      
+          }/>
+
+
+        <Route
+          path='/modalidades'
+          element={
+         
+              <ModalidadesPage/>
       
           }/>
 

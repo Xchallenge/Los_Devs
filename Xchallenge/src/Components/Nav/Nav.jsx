@@ -2,6 +2,7 @@ import React from 'react';
 import "./Nav.css"
 import { Link } from 'react-router-dom';
 import Logo from '../../Assets/Images/logoWorldSkills.png'
+import {Button} from '../FormComponents/FormComponents'
 const Nav = () => {
     return (
         <nav className='navbar'>
@@ -14,14 +15,20 @@ const Nav = () => {
 
             <div className="nav__items">
                 <Link to="/" className='nav__item'>
-                Home
+                    <p>  Skills</p>
+             
                 </Link>
                 
-                <Link to="/resultado" className='nav__item'>
-                    Resultado
-                </Link>
+                <div  className='nav__item nav__item-checkbox' >
+                    <input type="checkbox" name="Dark" id="" />
+                    <p>Dark</p>
+                </div>
                 <Link to="/login" className='nav__item'>
-                   Login
+                  <Button
+                  textButton="Login"
+                  additionalClass="btn-Header"
+                  
+                  />
                 </Link>
             </div>
         </nav>

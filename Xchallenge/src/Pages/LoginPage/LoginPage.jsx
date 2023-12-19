@@ -2,6 +2,7 @@ import React from 'react';
 import "./LoginPage.css";
 import { Button, Input, Label } from '../../Components/FormComponents/FormComponents';
 import Container from '../../Components/Container/Container';
+import WorldConnect from '../../Assets/Icons/worldConnect.png'
 
 const LoginPage = () => {
     return (
@@ -10,8 +11,12 @@ const LoginPage = () => {
         <Container>
             <div className="form-flex">
 
+            <img className='imgLogin' src={WorldConnect} alt="" />
+
             <form action="" className='loginForm'>
-                <h1>Login</h1>
+                <div className="formulario">
+
+                </div>
                 <p>Digite seus dados de acesso no campo abaixo.</p>
                 <Label 
                 labelText="Email"

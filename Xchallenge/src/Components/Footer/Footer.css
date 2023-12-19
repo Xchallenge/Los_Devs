@@ -7,10 +7,11 @@
     font-family: Bebas-Neue;
     font-size: 30px;
     background-color: #3B0C59;
-    position: absolute;
-    width: 100vw;
+    width: 100%;
+    position: fixed;
     bottom: 0;
     font-size: 1rem;
+    z-index: 1000;
 }
 
 .footer-page__rights {
