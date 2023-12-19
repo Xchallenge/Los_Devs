@@ -3,20 +3,19 @@ import "./Header.css"
 import Main from '../Main/Main';
 import Container from '../Container/Container';
 import Logo from '../../Assets/Images/logoWorldSkills.png'
+import Nav from '../Nav/Nav';
 
 const Header = () => {
     return (
         <>
-            <Main>
-                <div className='header'>
+            <header className='header'>
+                <div className='header-flex'>
                     <Container>
-                        <header className='header-flex'>
-                            <img className='logo' src={Logo} alt="" />
-                            <button className='btn-login'>Login</button>
-                        </header>
+                        <Nav />
                     </Container>
                 </div>
-            </Main>
+            </header>
+
         </>
     );
 };

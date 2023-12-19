@@ -72,11 +72,11 @@ export const Select = ({
             <option value="" hidden >Selecione</option>
 
             {/* options.map(??) */}
-            {options.map( (o) => {
+            {/* {options.map( (o) => {
                 return (
                     <option key={Math.random()} value={o.value}>{o.text}</option>
                 );
-            })}
+            })} */}
         </select>
     );
 }

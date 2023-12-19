@@ -6,8 +6,11 @@
 .footer-page {
     font-family: Bebas-Neue;
     font-size: 30px;
-    padding: 10px;
     background-color: #3B0C59;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    font-size: 1rem;
 }
 
 .footer-page__rights {
@@ -16,9 +19,4 @@
 
 }
 
-/* Desktop */
-@media screen and (min-width: 992px){
-    .footer-page {
-        font-size: 1rem;
-    }
-}
+
